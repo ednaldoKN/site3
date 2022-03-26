@@ -1,0 +1,119 @@
+@import url('http://fonts.cdnfonts.com/css/coolvetica-2');
+
+                
+
+@font-face{
+	font-family: myfont;
+	src: url('./components/fonts/DevinneSwash.ttf');
+}
+
+@font-face{
+	font-family: myfont2;
+	src: url('../fonts/DevinneSwashShadow.ttf');
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: ;
+}
+
+body,html{
+	overflow-x: hidden;
+	font-size: 16   cpx;
+	color: white;
+  font-family: 'Coolvetica', sans-serif;
+  background: url('./assets/newAssets/istockphoto-1167952490-170667a.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+main section{
+	background: transparent;
+	/*ackground: rgb(233,230,225);
+backgrou*/nd: linear-gradient(0deg, rgba(233,230,225,1) 0%, rgba(250,250,250,1) 100%);
+	padding: 10px 30px; 
+	margin-bottom: 60px;
+}
+
+main section>h1{
+	font-family: myfont;
+	color: #ffaa5e;
+	text-shadow:-2px -2px 0px #0d2b45, 
+               -2px 2px 0px #0d2b45,                    
+                2px -2px 0px #0d2b45,                  
+                2px 0px 0px #0d2b45;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+   
+footer{
+	background: #203c56;
+	margin-top: 50px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer img{
+	width: 200px;
+}
+
+footer > p{
+	text-align: center;
+	padding-bottom: 20px;
+	margin: 0px;
+	margin-top: -30px;
+	font-weight: bold;
+}
+
+
+
+
+.benefits--img img{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+/*style root*/
+.strong{
+	color: #0d2e45;
+	font-weight: bold;
+ 
+}
+
+.color-text1{
+	color: #0d2b45;
+}
+
+
+
+@media(max-width: 600px){
+	footer>div{
+		display: block;
+	}
+
+	footer > div h2{
+		text-align: center;
+	}
+
+	footer> div h2{
+		margin-right: 0px;
+	}
+
+	footer{
+		margin-bottom: 0px;
+		padding-bottom: 20px;
+	}
+}

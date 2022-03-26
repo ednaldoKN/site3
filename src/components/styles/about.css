@@ -1,0 +1,19 @@
+#about{
+     padding-bottom: 50px;
+     background: #0d2b45;
+}
+#about-items{
+     display: flex; 
+     justify-content: space-around;
+     align-content: center;
+}
+
+#about-img-container{
+     width: 250px;
+     display: flex;
+     justify-content: center; 
+     align-content:center;
+}
+#about-img-container  img{
+     width: 100%;
+}

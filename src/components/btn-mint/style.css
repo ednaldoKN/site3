@@ -1,0 +1,36 @@
+
+@font-face{
+	font-family: myfont3;
+	src: url('../fonts/DevinneSwashShadow.ttf');
+}
+
+.mint-btn-container{
+	padding: 20px;
+	background: #0d2b45;
+	color: #ffaa5e;
+	margin: 50px auto;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 20%;
+	border-radius: 12px;
+}
+
+.mint-btn-container a{
+	font-size: 2em;
+	text-decoration: none;
+	text-align: center;
+	color: inherit;
+	font-weight: bold;
+	font-family: myfont3;
+	/*text-shadow:-2px -2px 0px , 
+               -2px 2px 0px ,                    
+                2px -2px 0px ,                  
+                2px 0px 0px ;*/
+}
+
+
+.mint-btn-container:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
