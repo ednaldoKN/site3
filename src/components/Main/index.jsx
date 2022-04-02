@@ -10,7 +10,7 @@ import '../styles/team.css'
 import Icon from '../../assets/pizza-5997204_1280.png'
 
 import BannerImg from '../../assets/newAssets/20220326_182538.png'
-import AboutAvatar from '../../assets/20220314_194836.png'
+import AboutAvatar from '../../assets/newAssets/20220326_182423.png'
 
 
 import LeggstersImg from '../../assets/Leggesters.png'
@@ -432,13 +432,15 @@ function Main() {
 					<h2>Join our Community</h2>
 					<div  className="social-footer-icon" >
 						<div>
-							<a href="#"><img src="./src/assets/discord-brands.svg" width="40"/></a>
+
+			      
+							<a href=" https://discord.gg/zuE5CENxjG"><img src="./src/assets/discord-brands.svg" width="40"/></a>
 						</div>
 						{/*<!-- <div >
 							<a href="#"><img src="./src/assets/openseaLogo.png" width="40"></a>
 						</div> -->*/}
 						<div >
-							<a href="#"><img src="./src/assets/twitter-brands.svg" width="40"/></a>
+							<a href=" https://twitter.com/theslicewar"><img src="./src/assets/twitter-brands.svg" width="40"/></a>
 						</div>
 					</div>
 				</div>
