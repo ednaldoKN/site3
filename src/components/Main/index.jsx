@@ -35,6 +35,11 @@ import Rose from '../../assets/Icones/Rose - Pixel Artist.png'
 import Section from '../Section/'
 
 
+import TwitterBrand from '../../assets/duleigo1.png'
+import DiscordBrand from '../../assets/duleigo2.png'
+
+
+
 import ButtonMint from '../btn-mint/'
 
 
@@ -200,7 +205,7 @@ function Main() {
 				
 	    		<h1>Benefits</h1>
 	    		<p>
-	    			- The Slice War Metaverse is a set of 4 collection that will be released periodically, the Slogger collection will be the first to be released, and securing your slice of this metaverse will now give you access too puchase rare avatars from future limited collections to the holders of Sloggers.
+	    			- The Slice War Metaverse is a set of 4 collections that will be released periodically, the Slogger collection will be the first to be released, and securing your slice of this metaverse will now give you access too purchase rare avatars from future limited collections to the holders of Sloggers.
 	    		</p>
 	    		<p>
 	    			- Owning an NFT artwork from The Slice War Metaverse means you will own a Voxel-based 3D Avatar for your enjoyment in the Metaverse.
@@ -436,13 +441,13 @@ function Main() {
 					<h2>Join our Community</h2>
 					<div  className="social-footer-icon" >
 						<div>
-							<a href=" https://discord.gg/zuE5CENxjG"><img src="./src/assets/duleigo2.png" width="40"/></a>
+							<a href=" https://discord.gg/zuE5CENxjG"><img src={DiscordBrand} width="40"/></a>
 						</div>
 						{/*<!-- <div >
 							<a href="#"><img src="./src/assets/openseaLogo.png" width="40"></a>
 						</div> -->*/}
 						<div >
-							<a href=" https://twitter.com/theslicewar"><img src="./src/assets/du leigo1.png" width="40"/></a>
+							<a href=" https://twitter.com/theslicewar"><img src={TwitterBrand} width="40"/></a>
 						</div>
 					</div>
 				</div>

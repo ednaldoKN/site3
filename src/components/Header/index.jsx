@@ -3,7 +3,7 @@ import '../styles/home.css'
 import Logo from '../../assets/Sem Título-1.png'
 
 import DiscordBrand from '../../assets/duleigo2.png'
-import TwitterBrand from '../../assets/du leigo1.png'
+import TwitterBrand from '../../assets/duleigo1.png'
 
 
 import {Link, aniateScroll as scroll } from 'react-scroll'
@@ -30,7 +30,7 @@ function Header() {
 			        	data-bs-toggle='collapse'
 			        >
 			        	Home
-			        </Link>   
+			        </Link>      
 
 			        {/*<A id="link-to-mint" to='/mint'>Mint</A>*/}
 
