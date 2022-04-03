@@ -96,7 +96,7 @@ function Header() {
 			        <div id="social-icon-container">
 			        	<a className="nav-link social-icon" href="https://discord.gg/zuE5CENxjG"><img src={DiscordBrand} width="20" /></a> 
 				        {/*<!-- <a className="nav-link social-icon" href="#timeline"data-bs-target='#navbarNavAltMarkup' data-bs-toggle='collapse'><img src={TwitterBrand} width="30"></a>  -->*/}
-				        <a className="nav-link social-icon" href="https://twitter.com/theslicewar"><img src="./src/assets/twitter-brands.svg" width="20"/></a> 
+				        <a className="nav-link social-icon" href="https://twitter.com/theslicewar"><img src={TwitterBrand} width="20"/></a> 
 			        </div>
 			       
 			      
