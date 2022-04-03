@@ -2,8 +2,8 @@ import React from 'react'
 import '../styles/home.css'
 import Logo from '../../assets/Sem Título-1.png'
 
-import DiscordBrand from '../../assets/discord-brands.svg'
-import TwitterBrand from '../../assets/twitter-brands.svg'
+import DiscordBrand from '../../assets/duleigo2.png'
+import TwitterBrand from '../../assets/du leigo1.png'
 
 
 import {Link, aniateScroll as scroll } from 'react-scroll'
@@ -32,7 +32,7 @@ function Header() {
 			        	Home
 			        </Link>   
 
-			        <A id="link-to-mint" to='/mint'>Mint</A>
+			        {/*<A id="link-to-mint" to='/mint'>Mint</A>*/}
 
 			        <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}
 				        className="nav-link" 

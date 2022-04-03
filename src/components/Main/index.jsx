@@ -48,8 +48,12 @@ function Main() {
 		<main>
 			<Section id={'home'} >
 				<div>
-					<h1 className="display-3">Welcome to <br/>The <span>SliceWar</span> Metaverse</h1>
+					<h1 className="display-3">
+						Welcome to <br/>The <span>SliceWar</span> Metaverse
+					</h1>
+					{/*<ButtonMint/>*/}
 				</div>
+
 				<div>
 					<img src={BannerImg} alt="Banner avatar"/>
 					{/*<div className="banner-img">
@@ -199,13 +203,13 @@ function Main() {
 	    			- The Slice War Metaverse is a set of 4 collection that will be released periodically, the Slogger collection will be the first to be released, and securing your slice of this metaverse will now give you access too puchase rare avatars from future limited collections to the holders of Sloggers.
 	    		</p>
 	    		<p>
-	    			- Owning an NFT artwork from The Slice War Metaverse means you will own a Voxel-based 3D Avatar for your enjoyment in the Metaverse
+	    			- Owning an NFT artwork from The Slice War Metaverse means you will own a Voxel-based 3D Avatar for your enjoyment in the Metaverse.
 	    		</p>
 				<p>
-					- Owning ownership of any NFT Art from any collection in The Slice War Metaverse may, in the future, give you VIP treatment and influence in purchasing NFT from collections other than The Slice War Metaverse, as well as guaranteed spots on the WhiteLists
+					- Owning ownership of any NFT Art from any collection in The Slice War Metaverse may, in the future, give you VIP treatment and influence in purchasing NFT from collections other than The Slice War Metaverse, as well as guaranteed spots on the WhiteLists.
 				</p>
 				<p>
-					- Owning any NFT artwork from any Slice War Metaverse collection will give you access to exclusive raffles and prizes
+					- Owning any NFT artwork from any Slice War Metaverse collection will give you access to exclusive raffles and prizes.
 				</p>
 
 			
@@ -214,7 +218,7 @@ function Main() {
 				</div>
 
 
-				<ButtonMint/>
+				{/*<ButtonMint/>*/}
 			</Section>
 
 			
@@ -432,15 +436,13 @@ function Main() {
 					<h2>Join our Community</h2>
 					<div  className="social-footer-icon" >
 						<div>
-
-			      
-							<a href=" https://discord.gg/zuE5CENxjG"><img src="./src/assets/discord-brands.svg" width="40"/></a>
+							<a href=" https://discord.gg/zuE5CENxjG"><img src="./src/assets/duleigo2.png" width="40"/></a>
 						</div>
 						{/*<!-- <div >
 							<a href="#"><img src="./src/assets/openseaLogo.png" width="40"></a>
 						</div> -->*/}
 						<div >
-							<a href=" https://twitter.com/theslicewar"><img src="./src/assets/twitter-brands.svg" width="40"/></a>
+							<a href=" https://twitter.com/theslicewar"><img src="./src/assets/du leigo1.png" width="40"/></a>
 						</div>
 					</div>
 				</div>

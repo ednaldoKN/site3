@@ -25,7 +25,8 @@ body,html{
 	font-size: 16   cpx;
 	color: white;
   font-family: 'Coolvetica', sans-serif;
-  background: url('./assets/newAssets/istockphoto-1167952490-170667a.png');
+  background: url('./assets/wptoto.png');
+  /*background: rgba(177, 41, 240, .1);*/
   background-size: cover;
   background-attachment: fixed;
 }
@@ -37,7 +38,7 @@ main section{
 	/*ackground: rgb(233,230,225);
 backgrou*/nd: linear-gradient(0deg, rgba(233,230,225,1) 0%, rgba(250,250,250,1) 100%);
 	padding: 10px 30px; 
-	margin-bottom: 60px;
+	/*margin-bottoms: 60px;*/
 }
 
 main section>h1{

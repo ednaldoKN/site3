@@ -3,7 +3,7 @@ import './styles/mint.css'
 
 function Mint() {
 	return (
-		<iframe src='https://slicewar-mint.netlify.app/' frameBorder="0"></iframe>
+		<iframe src='https://r-a42af3.netlify.app' frameBorder="0"></iframe>
 	)
 }
 
